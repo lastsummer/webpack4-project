@@ -14,6 +14,13 @@ module.exports = {
         path: path.join(__dirname, 'dist')
     },
     mode: process.env.NODE_ENV === 'dev' ? 'development': 'production',
+    optimization:{
+        splitChunks: {
+            chunks: "all",
+            minSize: 50000,
+            automaticNameDelimiter: '_'
+        }
+    },
     module: {
         rules: [
             {
