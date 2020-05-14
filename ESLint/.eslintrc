@@ -4,7 +4,6 @@
     "ecmaVersion": 6,
     "sourceType": "module"  // 讓我們可以使用es6的module，如果沒有設定的話import export 會有問題
   },
-  "parser": "babel-eslint",
   "env":{
     "node": true,    // 使用 require
     "browser": true  // 因為有document語法
