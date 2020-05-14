@@ -1,17 +1,17 @@
 {
-  "extends": "eslint:recommended", // 代表使用剛剛打勾的rule,
+  "extends": "eslint:recommended", // 代表使用剛剛打勾的rule
   "parserOptions":{
     "ecmaVersion": 6,
     "sourceType": "module"  // 讓我們可以使用es6的module，如果沒有設定的話import export 會有問題
   },
+  "parser": "babel-eslint",
   "env":{
     "node": true,    // 使用 require
     "browser": true  // 因為有document語法
   },
   "rules": {  // 新增或是修改預設的rule
-     "indent": ["error", 4],
-     "linebreak-style": ["error", "unix"],
-     "quotes": ["error", "single"],
-     "semi": ["error", "never"]
+     "indent": ["warn", 4],
+     "linebreak-style": ["warn", "unix"],
+     "quotes": ["warn", "single"]
    }
 }
