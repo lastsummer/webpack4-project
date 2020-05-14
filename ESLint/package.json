@@ -32,6 +32,6 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "boostrap": "^2.0.0"
+    "eslint": "^7.0.0"
   }
 }
