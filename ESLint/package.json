@@ -12,11 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "husky": {
-    "hooks": {
-        "pre-commit": "lint-staged"
-    }
-  },
+  "pre-commit": ["lint"],
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
